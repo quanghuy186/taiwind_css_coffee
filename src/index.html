@@ -7,24 +7,63 @@
   </head>
   <body>
     <div class="root">
-      <header></header>
+      <div class="wrap-content bg-slate-200 max-w-screen-2xl mx-auto text-base">
+        <header class="flex flex-row justify-between items-center">
+          <div class="logo basis-1/6 text-center font-semibold">
+            CoffeeStyle
+          </div>
+          <nav class="basis-3/6 uppercase">
+            <ul class="flex gap-8 justify-end text-slate-400">
+              <li class="nav-menu text-black">
+                <a href="">Home</a>
+              </li>
+              <li class="nav-menu"><a href="">OUR PRODUCTS</a></li>
+              <li class="nav-menu"><a href="">BLOG</a></li>
+              <li class="nav-menu"><a href="">About</a></li>
+              <li class="nav-menu"><a href="">Contact</a></li>
+              <li class="nav-menu"><a href="">Styleguide</a></li>
+            </ul>
+          </nav>
+          <div
+            class="cart hover:cursor-pointer basis-2/6 flex justify-start items-center mx-16 uppercase"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth="{1.5}"
+              stroke="currentColor"
+              className="size-6"
+              class="w-5 h-5"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z"
+              />
+            </svg>
+            <span class="font-semibold opacity-50">Cart</span>
+            <span class="mx-0.5 text-slate-500">10</span>
+          </div>
+        </header>
 
-      <div class="wrap-content">
-        <div class="best-place"></div>
+        <main>
+          <div class="slider"></div>
 
-        <div class="read-store"></div>
+          <div class="read-store"></div>
 
-        <div class="featured"></div>
+          <div class="featured"></div>
 
-        <div class="on-sale"></div>
+          <div class="on-sale"></div>
 
-        <div class="more-product"></div>
+          <div class="more-product"></div>
 
-        <div class="coffee-magazine"></div>
+          <div class="coffee-magazine"></div>
 
-        <div class="life-stories"></div>
+          <div class="life-stories"></div>
 
-        <div class="subscribe"></div>
+          <div class="subscribe"></div>
+        </main>
       </div>
 
       <footer></footer>
