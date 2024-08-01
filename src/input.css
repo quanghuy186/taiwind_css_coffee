@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.nav-menu {
+  @apply font-semibold relative after:absolute text-sm after:w-0 hover:after:w-full after:h-0.5 after:bg-amber-900 hover:text-slate-600 after:bottom-0 after:left-0 after:duration-300 after:transition-all after:ease-in-out;
+}
