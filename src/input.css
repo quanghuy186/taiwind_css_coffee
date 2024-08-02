@@ -1,11 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-<<<<<<< HEAD
 @import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
-=======
->>>>>>> 9b76ee41646b75fbaf2f72b1796a9e0aece56615
 
 .nav-menu {
   @apply font-semibold relative after:absolute text-sm after:w-0 hover:after:w-full after:h-0.5 after:bg-amber-900 hover:text-slate-600 after:bottom-0 after:left-0 after:duration-300 after:transition-all after:ease-in-out;
+}
+
+.read-story {
+  @apply relative after:opacity-55 text-lg py-1 after:absolute after:h-[0.07px] after:bg-orange-600 after:w-full after:bottom-0 after:left-0 hover:after:bg-orange-800 hover:after:h-0.5 after:transition-all ease-in-out after:duration-300;
+}
+
+.subline-decor {
+  @apply w-8 h-px bg-slate-200;
+}
+
+.subline-header {
+  @apply flex items-center justify-center;
+}
+
+.lable-subline {
+  @apply px-2 uppercase text-slate-400 font-medium tracking-widest text-[12px];
 }
